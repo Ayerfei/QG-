@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+	background-image:url(../images/register.jpg);
+	background-color:rgb(125,159,190);
+	background-size:1600px 800px;/*设置图片像素大小*/
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 40px 10px 40px;
+}
+#message {
+	text-align:right;/*右对齐*/
+	background: rgba(125, 159, 190, 0.7);
+	padding: 40px;
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(125, 159, 190, 0.3);
+}
+input, textarea {
+	font-size:22px;
+	padding: 4px 5px;
+    margin: 2px;
+    background: none;
+    border: 1px solid #a0b3b0;/*边框大小*/
+    color: #ffffff;
+}
+a {
+	text-decoration: none;
+	color: #1ab188;
+	transition: .5s ease;
+}
+a:hover {
+	color: #179b77;
+}
+
+#myNav {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+#myNav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#myNav li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	background: rgba(160, 179, 176, 0.25);
+	color: #a0b3b0;
+	font-size: 25px;
+	/*float: left;*/
+	width: 50%;
+	text-align: center;/*将字体设置在中间*/
+	cursor: pointer;/*光标属性*/
+	transition: .5s ease;/*过渡*/
+  
+}
+#myNav li a:hover {
+    background: #179b77;
+    color: #ffffff;
+}
+#myNav .active a {
+    background: #1ab188;
+    color: #ffffff;
+}
+
+.spanStyle{
+	color: aliceblue;
+}
+
+#submit {
+  border: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 500;/*字体粗细*/
+  text-transform: uppercase;/*大写*/
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;/*过渡*/
+  -webkit-appearance: none;
+  display: block;/*独占一行*/
+  width: 100%;
+}
+#submit:hover, #submit:focus {
+  background: #179b77;
+}

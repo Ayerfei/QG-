@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>welcome!</title>
+		<link rel="stylesheet"  href="../css/register.css" type="text/css" />
+	</head>
+	<body>
+		<h1 align="center">小老鼠邀您一起来聊天！</h1>
+		<form action="../controller/Register" method="post">
+			<div id="message">
+				<ul id="myNav">
+			        <li id="register" class="active"><a href="register.html">Sign Up</a></li>
+			        <li id="login"><a href="login.html">Log In</a></li>
+	        	</ul>
+	        	<div id="usernameDiv">
+	        		用户名：<input type="text" name="username"/>
+	        		<span class="spanStyle" id="usernameSpan">*</span><br />
+	        	</div>
+				<div id="telephoneDiv">
+					手机号：<input type="text" name="telephone"/>
+					<span class="spanStyle" id="telephoneSpan">*</span><br />
+				</div>
+				<div id="mailboxDiv">
+					邮箱：<input type="text" name="mailbox"/>
+					<span class="spanStyle" id="mailboxSpan">*</span><br />
+				</div>
+				<div id="passwordDiv">
+					密码：<input type="text" name="password"/>
+					<span class="spanStyle" id="passwordSpan">*</span><br />
+				</div>
+				<div id="confirmPwDiv">
+					确认密码：<input type="text" name="confirmedPw"/>
+					<span class="spanStyle" id="confirmedPwSpan">*</span><br />
+				</div>
+				<div id="vercodeDiv">
+					验证码：<input type="text" name="vercode" />
+					<span class="spanStyle" id="vercodeSpan">*</span><br />
+				</div>
+				<input id="submit" type="submit" value="Get Started" />
+			</div>
+		</form>
+	</body>
+</html>
